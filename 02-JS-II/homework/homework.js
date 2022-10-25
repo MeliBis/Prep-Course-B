@@ -7,56 +7,66 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
+    return str;
   }
   
   function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
+    return x+y;
   }
   
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    return x-y;
   }
   
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    return x*y;
   }
   
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return x / y;
   }
   
   function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    
   }
   
   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+
   }
   
   function menosQueNoventa(num) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
+
   }
   
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
+   
   }
   
   function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
+    return x % y;
   }
   
   function esPar(num) {
@@ -101,6 +111,7 @@ function devolverString(str) {
     //Generar un número al azar entre 0 y 1 y devolverlo
     //Pista: investigá qué hace el método Math.random()
     // Tu código:
+    
   }
   
   function esPositivo(numero) {
@@ -115,19 +126,22 @@ function devolverString(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
+    return str + '!';
   }
   
   function combinarNombres(nombre, apellido) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
+    return nombre + ' ' + apellido;
   }
   
   function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-  }
+/*     return 'hola' + ' ' + nombre + '!';
+ */  }
   
   function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un rectángulo teniendo su altura y ancho
@@ -137,12 +151,14 @@ function devolverString(str) {
   function retornarPerimetro(lado) {
     //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
     //Escribe tu código aquí
-  }
+/*     return lado * lado;
+ */  }
   
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
-  }
+/*     return base * altura;
+ */  }
   
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
