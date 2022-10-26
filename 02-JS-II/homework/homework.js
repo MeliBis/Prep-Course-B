@@ -151,9 +151,15 @@ function devolverString(str) {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-/*     if (numero === 0 )return 'false';
-    if(numero > 0)return "Es positivo";
-    if(numero > 0)return "Es negativo"; */
+    if (numero > 0) {
+      return "Es positivo";
+    } 
+    else if (num < 0) {
+      return "Es negativo";
+    } else if (num == 0) {
+      return false;
+    }
+   
   }
   
   function agregarSimboloExclamacion(str) {
@@ -176,8 +182,7 @@ function devolverString(str) {
     // Tu código:
 /*     return 'hola ' + nombre + '!'
  */ 
-var saludo = `Hola {nombre}!` /* equivocado */
-return saludo;
+return `Hola ${nombre}!`; /* equivocado */
 }
   
   function obtenerAreaRectangulo(alto, ancho) {
@@ -202,8 +207,10 @@ return saludo;
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
-    
-  }
+/*     return euro / 1.20;
+
+ */ return euro * 1.20
+ }
   
   // No modificar nada debajo de esta línea
   // --------------------------------
