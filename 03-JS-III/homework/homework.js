@@ -8,14 +8,14 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
-  /*   const num = [1,2,3,4,5,6,7,8,9,10];
-    let sum = 0;
+      const num = [1,2,3,4,5,6,7,8,9,10];
+     let sum = 0;
 
-     for(let i= 1; i < num.length; i++){
-     sum += num[i];
+     for(let i= 0; i <= 10; i++){
+     sum += i;
 
     }
-    return sum; */
+    return sum; 
 }
 
 function encuentraPares(array){
