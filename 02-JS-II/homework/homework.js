@@ -152,14 +152,13 @@ function devolverString(str) {
     //Si el número es 0, devuelve false
     // Tu código:
     if (numero > 0) {
-      return "Es positivo";
+      return 'Es positivo';
     } 
     else if (num < 0) {
-      return "Es negativo";
-    } else if (num == 0) {
+      return 'Es negativo';
+    } else{
       return false;
     }
-   
   }
   
   function agregarSimboloExclamacion(str) {
@@ -182,7 +181,7 @@ function devolverString(str) {
     // Tu código:
 /*     return 'hola ' + nombre + '!'
  */ 
-return `Hola ${nombre}!`; /* equivocado */
+  return (`Hola ${nombre}!`); /* equivocado */
 }
   
   function obtenerAreaRectangulo(alto, ancho) {
@@ -200,7 +199,7 @@ return `Hola ${nombre}!`; /* equivocado */
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
-    return base * altura/2;
+    return (base * altura)/2;
   }
   
   function deEuroAdolar(euro) {
